@@ -58,10 +58,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Dennis`} <div> <span className="txt-rotate" dataPeriod="50" data-rotate='[ "Web Developer", "Front-End Developer", "Full-Stack Developer" ]'><span className="wrap">{text}</span></span>   </div></h1>
                   <p>Graduate and a self-taught front-end developer, passionate about creating user-centric applications. With
-                practical experience from hackathons and a Full Stack Development course, I possess strong problem-solving,
-                collaboration, and communication skills. My customer service background enhances my ability to convey
-                complex information and resolve issues efficiently. Proficient in HTML5, CSS3, JavaScript, and frameworks like
-                Django and Bootstrap, I am eager to contribute to an innovative team focused on growth and user experience.</p>
+                    practical experience from hackathons and a Full Stack Development course, I possess strong problem-solving,
+                    collaboration, and communication skills. My customer service background enhances my ability to convey
+                    complex information and resolve issues efficiently. Proficient in HTML5, CSS3, JavaScript, and frameworks like
+                    Django and Bootstrap, I am eager to contribute to an innovative team focused on growth and user experience.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
