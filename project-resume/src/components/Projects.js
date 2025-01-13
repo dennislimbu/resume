@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,35 +14,42 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Bookie",
+            description: "A tourism webpage",
             imgUrl: projImg1,
+            url: "https://dennislimbu.github.io/tourismWebPage.github.io/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "OhMyFood",
+            description: "An online booking system for restaurants to pre-order food.",
             imgUrl: projImg2,
+            url: "https://dennislimbu.github.io/ohMyFood/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Fact Frenzy",
+            description: "An interactive quiz platform showcasing HTML, CSS, and JavaScript with responsive design and engaging features.",
             imgUrl: projImg3,
+            url: "https://dennislimbu.github.io/FactFrenzy/"
+
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "PennyPilot",
+            description: "Simplifies finance management by recording, categorizing, and analyzing spending for better budgeting.",
+            imgUrl: projImg4,
+            url: "https://pennypilot-ed4fcf68cb92.herokuapp.com/accounts/login/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "Chirp",
+            description: "A platform for users to connect, communicate, and showcase interests through customizable profiles and interactive features.",
+            imgUrl: projImg5,
+            url: "https://chirp-social-fcb5ac910432.herokuapp.com/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
-        },
+            title: "LoveBite",
+            description: "A romantic food website with recipes and date night ideas to empower home cooks.",
+            imgUrl: projImg6,
+            url: "https://shivani-seth.github.io/Love-bites/"
+        }, 
     ];
 
     return (
