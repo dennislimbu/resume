@@ -61,8 +61,7 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                                    <p>Explore a diverse range of projects showcasing my skills in web development, design, and problem-solving, each crafted to deliver unique and engaging user experiences.</p>                                    <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
                                                 <Nav.Link eventKey="first">Tab 1</Nav.Link>
@@ -90,11 +89,9 @@ export const Projects = () => {
                                                 </Row>
                                             </Tab.Pane>
                                             <Tab.Pane eventKey="second">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            </Tab.Pane>
+                                            <p>More exciting projects coming soon. Stay tuned!</p>                                            </Tab.Pane>
                                             <Tab.Pane eventKey="third">
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                            </Tab.Pane>
+                                            <p>More exciting projects coming soon. Stay tuned!</p>                                            </Tab.Pane>
                                         </Tab.Content>
                                     </Tab.Container>
                                 </div>}
