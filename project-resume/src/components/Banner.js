@@ -63,8 +63,10 @@ export const Banner = () => {
                     collaboration, and communication skills. My customer service background enhances my ability to convey
                     complex information and resolve issues efficiently. Proficient in HTML5, CSS3, JavaScript, and frameworks like
                     Django and Bootstrap, I am eager to contribute to an innovative team focused on growth and user experience.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
+                    <a href="https://www.linkedin.com/in/dennis-limbu/" target="_blank" rel="noopener noreferrer">
+                     <button>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    </a>              
+                  </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
