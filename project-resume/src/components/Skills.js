@@ -33,9 +33,9 @@ export const Skills = () => {
     { name: "Python", percentage: 70},
     { name: "Django", percentage: 70 },
     { name: "Heroku", percentage: 65 },
-    { name: "GitHub", percentage: 90 },
+    { name: "GitHub", percentage: 80 },
     { name: "Git", percentage: 85 },
-    { name: "React", percentage: 80 }
+    { name: "React", percentage: 40 }
   ];
 
   return (
