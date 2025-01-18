@@ -58,6 +58,11 @@ img {
   height: auto;
 }
 
+.logo {
+  filter: brightness(0) invert(1);
+  width: 60%;
+}
+
 button {
   border: 0;
   background-color: transparent;
