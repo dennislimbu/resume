@@ -320,12 +320,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
 }
+
+.skill .item {
+  text-align: center;
+  padding: 20px;
+}
+
+.skill .item h5 {
+  margin-bottom: 10px;
+}
+
+.skill .item .CircularProgressbar {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .skill-bx {
   background: #151515;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: -20px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -354,6 +370,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
@@ -403,9 +420,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-    top: 0;
-    left: 0;
+background: linear-gradient(90.21deg, #0000FF -5.91%, #000033 50%, #000000 111.58%);
+top: 0;    left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
