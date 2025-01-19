@@ -52,6 +52,10 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/dennis-limbu/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
               </div>
+              <div className="social-icon">
+                <a href="https://github.com/dennislimbu" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
+              </div>
+              
               <a href="https://www.linkedin.com/in/dennis-limbu/" target="_blank" rel="noopener noreferrer">
                 <button className="vvd"><span>Let’s Connect</span></button>
               </a>
